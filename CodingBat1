@@ -1,0 +1,7 @@
+public boolean isValidOn5by5(int row, int col){
+  if (row > 4 || col > 4 || row < 0 || col < 0){
+    return false;
+  } else {
+    return true;
+  }
+}
